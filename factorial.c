@@ -10,7 +10,6 @@ int main()
     // show error if the user enters a negative integer
     if (num < 0)
         printf("ERROR! Factorial of a negative number doesn't exist.");
-
     else
     {
         for(i=1; i<=num; ++i)
