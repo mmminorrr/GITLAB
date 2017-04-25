@@ -4,12 +4,12 @@ int main()
     int num, i;
     unsigned long long factorial = 1;
 
-    printf("Enter an integer: ");
+    printf("ENTER AN INTEGER: ");
     scanf("%d",&num);
 
     // show error if the user enters a negative integer
     if (num < 0)
-        printf("Error! Factorial of a negative number doesn't exist.");
+        printf("Error! Factorial of a negative number doesn't EXIST.");
 
     else
     {
